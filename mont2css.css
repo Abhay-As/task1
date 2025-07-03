@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5fa;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Banner */
+.banner {
+  background: #e0e0ff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.banner h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+.banner p {
+  margin-top: 0.5rem;
+}
+.banner a {
+  color: #4c20d6;
+  font-weight: bold;
+}
+
+/* Content */
+.content {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.stepper {
+  flex: 0 0 250px;
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.05);
+}
+.step {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #333;
+}
+.step.active {
+  color: #4c20d6;
+  font-weight: bold;
+}
+
+/* Form */
+.form-section {
+  flex: 1;
+  min-width: 300px;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.form-section h2 {
+  margin-top: 0;
+}
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  margin-top: 1.5rem;
+  padding: 12px;
+  width: 100%;
+  background: #4c20d6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+form button:hover {
+  background: #3a1ba3;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+}
+.footer img {
+  height: 50px;
+}
+.footer p {
+  margin: 1rem 0;
+}
+.footer .subscribe {
+  padding: 10px 20px;
+  background: #4c20d6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4c20d6;
+  font-weight: 500;
+}
